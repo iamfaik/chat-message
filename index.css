@@ -1,0 +1,147 @@
+
+.loginpage{
+    background-image: url('https://img.freepik.com/free-photo/green-paint-brush-textured-background_53876-104801.jpg?w=900&t=st=1672505078~exp=1672505678~hmac=485be50cb3a4c1f53129fb7ae7c832d6611e4dc10cf5a31ff579d069c5b335a4');
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    width: 40%;
+    height:50%;
+    background-color: #81d8d0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+input{
+    width: 73%;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border: none;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+#enter{
+    border: none;
+    border-radius: 5px;
+    width: 73%;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.welcome>h2,.ptext{
+    font-family: 'Michroma', sans-serif;
+}
+.welcome>.ptext{
+    font-size: 12px;
+}
+.chatpage{
+    background-image: url('https://img.freepik.com/free-photo/green-paint-brush-textured-background_53876-104801.jpg?w=900&t=st=1672505078~exp=1672505678~hmac=485be50cb3a4c1f53129fb7ae7c832d6611e4dc10cf5a31ff579d069c5b335a4');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+.messagearea{
+    width: 100%;
+    height: 80vh;
+    margin-top: 2%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: #81d8d0;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.sendarea{
+    padding: 0px;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+textarea{
+    width:91%;
+    height: 35px;
+    resize: none;
+    margin-left: 0px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;  
+    
+}
+
+#send{
+    margin-left: 1%;
+    width: 10%  ;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;  
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Michroma', sans-serif;
+    text-transform: capitalize;
+}
+
+#gifs{
+    margin-left: 1%;
+    width: 10%  ;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;  
+}
+
+.emojis{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.smiles{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    display: none;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+
+}
+.smiles>img{
+    margin: 1% 0 0 1%;
+    width: 50px;
+    height: 50px;
+    margin: 1%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 50%;
+}
+
+.srchsmile{
+    margin-left: 10px;
+    width: 75%;
+    height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;  
+
+}
+#btnsrch{
+    margin-top: 9px;
+    margin-left: 5px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;  
+}
